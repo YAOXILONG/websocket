@@ -14,7 +14,7 @@
      ws.onopen = function() {
      // 这里用一个延时器模拟事件
          setInterval(function() {
-             ws.send('客户端消息');
+             ws.send('客户端消息来了');
          },2000);
      }
      // 这里接受服务器端发过来的消息
